@@ -19,7 +19,7 @@ function displayResults(responseJson) {
     // iterate through data array
     for (let i = 0; i < responseJson.data.length; i++) {
         $('#results-list').append(
-            `<li><h3><a href= "${responseJson.data[i].url}">${responseJson.data[i].name}</a></h3>
+            `<li><h3><a href= "${responseJson.data[i].url}">${responseJson.data[i].fullName}</a></h3>
             <p>${responseJson.data[i].description}</p>
             <p>${responseJson.data[i].addresses[0].line1}</p>
             <p>${responseJson.data[i].addresses[0].city}</p>
