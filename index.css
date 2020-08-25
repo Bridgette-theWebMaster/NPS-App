@@ -1,0 +1,12 @@
+body {
+    background-image: url(https://nas-national-prod.s3.amazonaws.com/styles/hero_mobile/s3/olympic_0.jpg?itok=6qvuorbH);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(128, 123, 123);
+}
+
+.container {
+    background-color: rgba(5, 5, 5, 0.644);
+    text-align: center;
+    font-family: monospace;
+}
